@@ -5,7 +5,7 @@ WHERE continent IS NOT NULL;
 SELECT *
 FROM covid_vac;
 
--- select the data tha i'm going to use
+-- select the data that i'm going to use
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM covid_deaths
