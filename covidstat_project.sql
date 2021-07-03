@@ -1,3 +1,5 @@
+-- Data exploration of the dataset on Covid-19 deaths (https://ourworldindata.org/covid-deaths) using SQL
+
 SELECT *
 FROM covid_deaths
 WHERE continent IS NOT NULL;
